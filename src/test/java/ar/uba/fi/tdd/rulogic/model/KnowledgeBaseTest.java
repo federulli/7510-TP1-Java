@@ -18,9 +18,9 @@ public class KnowledgeBaseTest {
 	}
 
 	@Test
-	public void test() {
+	public void test() throws Exception {
 
-		Assert.assertTrue(this.knowledgeBase.answer("varon (javier)."));
+		Assert.assertFalse(this.knowledgeBase.answer("varon (javier)."));
 
 	}
 
