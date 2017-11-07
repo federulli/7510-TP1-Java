@@ -1,2 +1,7 @@
-ar/uba/fi/tdd/rulogic/model/KnowledgeBase.class
-ar/uba/fi/tdd/rulogic/App.class
+ar\uba\fi\tdd\rulogic\Interpreter.class
+ar\uba\fi\tdd\rulogic\MatcheableFactory.class
+ar\uba\fi\tdd\rulogic\Rule.class
+ar\uba\fi\tdd\rulogic\model\KnowledgeBase.class
+ar\uba\fi\tdd\rulogic\App.class
+ar\uba\fi\tdd\rulogic\Fact.class
+ar\uba\fi\tdd\rulogic\Matcheable.class

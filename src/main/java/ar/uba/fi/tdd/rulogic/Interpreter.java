@@ -19,12 +19,12 @@ public class Interpreter {
 	}
 	
 	public void parse_db(String db_path) throws Exception {
-		try (BufferedReader br = new BufferedReader(new FileReader(db_path))) {
-		    String line;
-		    while ((line = br.readLine()) != null) {
-		       db.add(this.creator.create(line));
-		    }
-		}
+		BufferedReader br = new BufferedReader(new FileReader(db_path));
+	    String line;
+	    while ((line = br.readLine()) != null) {
+	       db.add(this.creator.create(line));
+	    }
+		
 	}
 	
 	public Boolean check_query(String query) throws Exception {

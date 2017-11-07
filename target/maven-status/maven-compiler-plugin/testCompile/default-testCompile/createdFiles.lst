@@ -1,1 +1,5 @@
-ar/uba/fi/tdd/rulogic/model/KnowledgeBaseTest.class
+ar\uba\fi\tdd\rulogic\MatcheableFactoryTest.class
+ar\uba\fi\tdd\rulogic\RuleTest.class
+ar\uba\fi\tdd\rulogic\FactTest.class
+ar\uba\fi\tdd\rulogic\InterpreterTest.class
+ar\uba\fi\tdd\rulogic\model\KnowledgeBaseTest.class
