@@ -6,8 +6,9 @@ public class KnowledgeBase {
 	
 	Interpreter interpreter;
 	
-	public KnowledgeBase() {
+	public KnowledgeBase() throws Exception {
 		this.interpreter = new Interpreter();
+		this.interpreter.parse_db("src/main/resources/rules.db");
 	}
 	
 	public boolean answer(String query) throws Exception {
