@@ -6,22 +6,20 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.InjectMocks;
+import ar.uba.fi.tdd.rulogic.model.KnowledgeBase; 
 
 public class KnowledgeBaseTest {
 
-	@InjectMocks
 	private KnowledgeBase knowledgeBase;
 
 	@Before
 	public void setUp() throws Exception {
-		initMocks(this);
+		this.knowledgeBase = new KnowledgeBase();
 	}
 
 	@Test
 	public void test() throws Exception {
-
 		Assert.assertFalse(this.knowledgeBase.answer("varon (javier)."));
-
 	}
 
 }
